@@ -1,0 +1,119 @@
+Python 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.25.0 -- An enhanced Interactive Python.
+
+
+"""
+Created on Mon Mar 30 15:24:19 2026
+
+@author: hp
+"""
+
+import pandas as pd
+
+# 1. Friend Names CSV
+friends = pd.read_csv(r"C:\Users\hp\sowjanya_2026\friend_names.csv file.txt")
+print("\nFriends Data:\n", friends)
+
+# 2. Family Members (* delimiter)
+family = pd.read_csv(r"C:\Users\hp\sowjanya_2026\family_members.txt file.txt", delimiter="*")
+print("\nFamily Data:\n", family)
+
+# 3. Veg Food (| delimiter)
+veg = pd.read_csv(r"C:\Users\hp\sowjanya_2026\vegfood_items.txt file.txt", delimiter="|")
+print("\nVeg Food Data:\n", veg)
+
+# 4. Non-Veg Food (| delimiter)
+nonveg = pd.read_csv(r"C:\Users\hp\sowjanya_2026\nonvegfood_items.txt file.txt", delimiter="|")
+print("\nNon-Veg Food Data:\n", nonveg)
+
+# 5. Months (& delimiter)
+months = pd.read_csv(r"C:\Users\hp\sowjanya_2026\month_names.txt file.txt", delimiter="&")
+print("\nMonths Data:\n", months)
+
+# 6. Colours (^ delimiter)
+colours = pd.read_csv(r"C:\Users\hp\sowjanya_2026\colours_names.txt file.txt", delimiter="^")
+print("\nColours Data:\n", colours)
+
+Friends Data:
+   friendname      quality
+0    meghana     creative
+1     anusha         kind
+2    naveena        funny
+3  spandhana        smart
+4   prasanna  hardworking
+5     jhansi        loyal
+6    bhavana       caring
+7    dayakar      helpful
+8      reddy       honest
+9       ammu     friendly
+
+Family Data:
+    familymembername          relation
+0          jayapaul            father
+1     rangasarojini            mother
+2        rajakumari      eldestsister
+3  venkataramanayya   bigbrotherinlaw
+4            mahima             niece
+5         sunilraju           brother
+6           meghana     sister_in_law
+7       yonafrancis            nephew
+8            salomi            sister
+9         anilkumar           husband
+
+Veg Food Data:
+             vegfoodname     taste
+0  paneer butter masala     spicy
+1             dal tadka    savory
+2          palak paneer      mild
+3             aloo gobi     spicy
+4           masala dosa     tangy
+5     vegetable biryani  fragrant
+6         chole bhature     spicy
+7          Malaki kofta     sweet
+8       gobi manchurian     spicy
+9       mixed veg curry    savory
+
+Non-Veg Food Data:
+      nonvegfoodname    taste
+0   chicken biryani    spicy
+1          fish fry   crispy
+2      mutton curry     rich
+3    butter chicken   creamy
+4         egg roast    tangy
+5      prawn masala   savory
+6      grilled fish    smoky
+7        chicken 65      hot
+8       keema matar    spicy
+9  tandoori chicken  charred
+
+Months Data:
+    monthname      season
+0    january      winter
+1   february      winter
+2      march      spring
+3      april      spring
+4        may      summer
+5       june      summer
+6       july     monsoon
+7     august     monsoon
+8   septmber      autumn
+9    October      autumn
+10  november  pre-winter
+11  december      winter
+
+Colours Data:
+    colourname_in_english colourname_in_hindi colourname_in_telugu
+0                    red                 lal                erupu
+1                   blue               neela               neelam
+2                  green                hara            akupachha
+3                 yellow               peela               pasupu
+4                  white               safed               telupu
+5                  black                kala              nallapu
+6                   pink              gulabi               gulabi
+7                 orange             narangi              narangi
+8                  brown               bhura              godhuma
+9                   grey              sileti             boodidha
+10                purple            baingani              vankaya
+11                  gold             sunehra              bangaru

@@ -1,0 +1,119 @@
+Python 3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 8.25.0 -- An enhanced Interactive Python.
+
+
+"""
+Created on Mon Mar 30 16:44:20 2026
+
+@author: hp
+"""
+
+import pandas as pd
+
+# 1
+friends = pd.read_excel(r"C:\Users\hp\sowjanya_2026\friend_names.xls file.xlsx")
+print("\nFriends:\n", friends)
+
+# 2
+family = pd.read_excel(r"C:\Users\hp\sowjanya_2026\family_members.xls file.xlsx")
+print("\nFamily:\n", family)
+
+# 3
+veg = pd.read_excel(r"C:\Users\hp\sowjanya_2026\Vegfood_items.xlsx file.xlsx")
+print("\nVeg Food:\n", veg)
+
+# 4
+nonveg = pd.read_excel(r"C:\Users\hp\sowjanya_2026\NonVegfood_items.xlsx file.xlsx")
+print("\nNon-Veg Food:\n", nonveg)
+
+# 5
+months = pd.read_excel(r"C:\Users\hp\sowjanya_2026\month_names.xlsx file.xlsx")
+print("\nMonths:\n", months)
+
+# 6
+colours = pd.read_excel(r"C:\Users\hp\sowjanya_2026\colours_names.xlsx file.xlsx")
+print("\nColours:\n", colours)
+
+Friends:
+   FriendName      Quality
+0    meghana     creative
+1     anusha         kind
+2    naveena        funny
+3  spandhana        smart
+4   prasanna  hardworhing
+5     jhansi        loyal
+6    bhavana       caring
+7    dayakar      helpful
+8      reddy       honest
+9       ammu     friendly
+
+Family:
+   FamilyMemberName     Relation
+0         jayapaul       father
+1    rangasarojini       mother
+2       rajakumari  eldersister
+3    venkataramana  brotherilla
+4           mahima        niece
+5        sunilraju      brother
+6          meghana   sisterilla
+7             yona       nephew
+8           salomi       sister
+9        anilkumar      husband
+
+Veg Food:
+             VegFoodName     Taste
+0  paneer butter masala     spicy
+1             dal tadka    savory
+2          palak panner      mild
+3             aolo gobi     spicy
+4           masala dosa     tangy
+5     vegetable biryani  fragrant
+6         chole bhature     spicy
+7          malaki kofta     sweet
+8      gobi manchuriyan     spicy
+9       mixed veg curry    savory
+
+Non-Veg Food:
+      NonVegFoodName    Taste
+0   chicken biryani    spicy
+1           fishfry   crispy
+2     mutton curryy     rich
+3    butter chicken    cremy
+4         egg roast    tangy
+5      prawn masala   savory
+6      grilled fish    smoky
+7        chicken 65      hot
+8       keema matar    spicy
+9  tandoori chicken  charred
+
+Months:
+    MonthName    Season
+0    january    winter
+1   february    winter
+2      march    spring
+3      april    spring
+4        may    summer
+5       june    summer
+6       july  moonsoon
+7     august  moonsoon
+8   septmber    autumn
+9    October    autumn
+10  november    winter
+11  december    winter
+
+Colours:
+    colourName_in_English colourName_in_Hindhi colourName_in_Teluhu
+0                    red                  lal                erupu
+1                   blue                neela               neelam
+2                  green                 hara            akupachha
+3                 yellow                peela               pasupu
+4                  white                safed               telupu
+5                  black                 kala              nallapu
+6                   pink               gulabi               gulabi
+7                 orange              narangi              narangi
+8                  brown                bhura              godhuma
+9                   grey               sileti             boodidha
+10                purple             baingani              vankaya
+11                  gold              sunehra              bangaru
